@@ -45,10 +45,11 @@ Run the demo with `demo/demo.tscn` (or F5): click a swatch or pick any colour.
 Kitsmith Lite has one look and three pieces. **Kitsmith**, the full tool, is a generator with a live preview on a
 game HUD and a menu:
 
-- 51 pieces: tabs, sliders, check boxes, toggles, progress bars, speech bubble, focus ring, key caps, cursor, 9 item
-  icons and 10 interface glyphs.
+- 55 pieces: tabs, sliders, check boxes, toggles, progress bars, primary buttons, speech bubble, focus ring, key caps,
+  cursor, 9 item icons and 10 interface glyphs.
 - 8 border styles, 3 corner shapes, 4 fill patterns, 14 presets and a Randomize button.
 - A pixel font in three faces (regular, bold, outline).
+- Runs on its own or as a plugin inside the Godot editor.
 - Exports PNGs with 9-slice margins, a sprite sheet + JSON for any engine, BMFont files, CSS, and a complete Godot 4
   Theme in a single file.
 
