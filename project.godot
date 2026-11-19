@@ -1,0 +1,21 @@
+; Engine configuration file.
+
+config_version=5
+
+[application]
+
+config/name="Kitsmith Lite"
+config/description="Pixel-art panels and buttons drawn by code from one colour."
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.4")
+
+[display]
+
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
