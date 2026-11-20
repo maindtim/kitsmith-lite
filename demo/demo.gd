@@ -83,7 +83,7 @@ func _ready() -> void:
 		buttons.add_child(b)
 
 	var more := Label.new()
-	more.text = "Kitsmith Lite: one look, panels, slots and buttons. The full Kitsmith adds 8 borders, 55 pieces, a pixel font and a complete Godot Theme."
+	more.text = "Kitsmith Lite: one look, panels, slots and buttons. The full Kitsmith adds 8 borders, 80 pieces, palette lock, a pixel font and a complete Godot Theme."
 	more.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	more.add_theme_color_override("font_color", Color("aab4d6"))
 	column.add_child(more)

@@ -8,8 +8,8 @@ extends RefCounted
 ##   $Menu.theme = KitsmithLite.build_theme(Color("4a5a8c"))        # panels + buttons, at 3x
 ##   KitsmithLite.make_panel(Color("8c4a4a")).save_png("user://panel.png")
 ##
-## One look only (bevelled, rounded). The full Kitsmith has 8 borders, 55 pieces, a pixel font,
-## patterns and a complete Godot Theme: see the README.
+## One look only (bevelled, rounded). The full Kitsmith has 8 borders, 80 pieces, palette lock,
+## a pixel font, patterns and a complete Godot Theme: see the README.
 
 enum State { NORMAL, HOVER, PRESSED, DISABLED }
 

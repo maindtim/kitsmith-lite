@@ -49,13 +49,19 @@ game HUD, a menu and a shop:
   cursor, 21 item icons and 23 interface glyphs.
 - 8 border styles, 3 corner shapes, 4 fill patterns, 14 presets and a Randomize button.
 - Palette lock: the whole kit in PICO-8, Sweetie 16, Endesga 32, DawnBringer 16, four greens, 1-bit or your own
-  `.hex` palette.
-- A pixel font in three faces (regular, bold, outline), with accented letters.
+  palette, from a palette file (`.hex`, `.gpl`, `.pal`) or straight from an image of your game: drop a tileset or
+  a screenshot on the window and the kit comes out in its colours.
+- A pixel font in three faces (regular, bold, outline), 174 glyphs with accented letters, exported as TrueType and
+  as BMFont.
 - Runs on its own or as a plugin inside the Godot editor.
-- Exports PNGs with 9-slice margins, a sprite sheet + JSON for any engine, BMFont files, CSS, and a complete Godot 4
+- Exports PNGs with 9-slice margins, a sprite sheet + JSON for any engine, the font, CSS, and a complete Godot 4
   Theme in a single file.
 
+![A screenshot of a game, and Kitsmith locked to its colours](screenshots/kitsmith-full-your-game.png)
+
 ![16 kits made with Kitsmith](screenshots/kitsmith-full-gallery.png)
+
+![Four styles, free and locked to six palettes](screenshots/kitsmith-full-palettes.png)
 
 ![Kitsmith](screenshots/kitsmith-full-app.png)
 
